@@ -1,14 +1,121 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.banner-section{
-    background: url(../images/banner_img.jpg);
-    background-size: cover;
-    border-radius: 20px;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.btn {
+  background: #009dde;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+.banner-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/banner_img.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+
+.search-area {
+  backdrop-filter: blur(30px) brightness(124%);
+  background-color: rgba(255, 255, 255, .25);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.single-input {
+  width: 100%;
+}
+
+.single-input select {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #333;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.search-area label {
+  display: block;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: capitalize;
+
+}
+.search-area .input-range__label {
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
