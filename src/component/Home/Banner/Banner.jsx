@@ -6,11 +6,11 @@ const Banner = () => {
 	const [rent, setRent] = useState({ min: 0, max: 10000 });
 
 	return (
-		<div className="w-full min-h-screen">
+		<div className="w-full min-h-screen pb-6">
 			<div className="banner-section">
 				<div className="flex-1">
-					<h1 className="pl-8 text-7xl roboto-bold text-white ">
-						Rent properties with no commission
+					<h1 className=" text-6xl roboto-bold text-white ">
+						Rent properties with zero commission
 					</h1>
 				</div>
 				<div className="banner-search flex-1">
