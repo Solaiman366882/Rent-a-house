@@ -1,5 +1,6 @@
 import { Avatar, Dropdown, Navbar } from "flowbite-react";
 import logo from "../../assets/images/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
@@ -39,12 +40,18 @@ const Header = () => {
 					<Navbar.Toggle />
 				</div>
 				<Navbar.Collapse>
-					<Navbar.Link href="/" active>
-						Home
+					<Navbar.Link  active>
+						<Link to='/'>Home</Link>
+						
 					</Navbar.Link>
-					<Navbar.Link href="/dashboard">DashBoard</Navbar.Link>
-					<Navbar.Link href="/login">Login</Navbar.Link>
-					<Navbar.Link href="/register">Register</Navbar.Link>
+					<Navbar.Link >
+						<Link to="/dashboard">DashBoard</Link>
+						</Navbar.Link>
+					<Navbar.Link >
+						<Link to="/login">Login</Link>
+						</Navbar.Link>
+					<Navbar.Link >
+						<Link to="/register">Register</Link></Navbar.Link>
 				</Navbar.Collapse>
 			</Navbar>
 		</div>
