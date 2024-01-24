@@ -1,11 +1,11 @@
 import { Avatar, Dropdown, Navbar } from "flowbite-react";
-import logo from "../../assets/images/logo.png"
+import logo from "../../assets/images/logo.png";
 
 const Header = () => {
 	return (
 		<div>
 			<Navbar fluid rounded>
-				<Navbar.Brand >
+				<Navbar.Brand>
 					<img
 						src={logo}
 						className="mr-3 h-6 sm:h-9"
@@ -39,10 +39,9 @@ const Header = () => {
 					<Navbar.Toggle />
 				</div>
 				<Navbar.Collapse>
-					<Navbar.Link href="#" active>
+					<Navbar.Link href="/" active>
 						Home
 					</Navbar.Link>
-					<Navbar.Link href="/">Home</Navbar.Link>
 					<Navbar.Link href="/dashboard">DashBoard</Navbar.Link>
 					<Navbar.Link href="/login">Login</Navbar.Link>
 					<Navbar.Link href="/register">Register</Navbar.Link>

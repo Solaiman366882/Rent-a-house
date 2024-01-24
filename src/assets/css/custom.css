@@ -101,7 +101,7 @@
   font-weight: 500;
   text-transform: capitalize;
 }
-.single-input input{
+.form-area .single-input input{
   display: block;
   width: 100%;
   font-weight: 600;
